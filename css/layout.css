@@ -1,0 +1,935 @@
+
+/*COLOUR PALETTE*/
+
+.bg-col-deepblue {
+    background-color: #00002E;
+}
+
+.bg-col-calmShade {
+    background-color: #aca674;
+}
+
+.bg-col-soothingEarth {
+    background-color: #9b6952;
+}
+
+.bg-col-gransCutlery {
+    background-color: #959a9e;
+}
+
+.bg-col-sissisAdoration {
+    background-color: #9e4361;
+}
+
+.bg-col-black {
+    background-color: #000;
+}
+
+.col-black {
+    color: #000;
+}
+
+.bg-col-white {
+    background-color: #fff;
+}
+
+.col-white {
+    color: #fff;
+}
+
+
+/*DEFAULT CONT STYLES*/
+
+.cont-y {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.base-carousel-content-cont-y {
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/*Default font style*/
+
+@font-face {
+    font-family: PerpetuaTitling;
+    src: url(../assets/design/PERTILI.TTF);
+}
+
+h1, h2, h3, h4, h5, a {
+    color: #ffbf00;
+    text-decoration: none;
+    box-shadow: inset #000 2px;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 1400px) {
+
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 0.8em;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    h2 {
+        font-size: 0.6em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    h2 {
+        font-size: 0.6em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+
+    h1 {
+        font-size: 0.5em;
+    }
+
+    h2 {
+        font-size: 0.55em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+
+/*Header styling*/
+
+
+header {
+    background-color: blue;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+
+
+
+
+.header-bg-img {
+    /*max-width: 100%;*/
+    background-color: rgba(0, 0, 46, 0.5);
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../assets/backgrounds/kroeg.jpg"); 
+}
+
+.header-bg-img:hover {
+    background-size: 180%;
+    transition-duration: 4s;
+    transform-style: preserve-3d;
+}
+
+
+.header-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-top-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.title-nav-cont {
+    width: 70%;
+    height: 100%;
+}
+
+.title-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.center-content-x {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    header {
+        background-color: #00002E;
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        background-color: purple;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    a {
+        font-size: 0.8em;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        background-color: green;
+        width: 100%;
+        height: 325px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        background-color: orange;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    h2 {
+        font-size: 0.6em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        background-color: orange;
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 0.75em;
+    }
+
+    h2 {
+        font-size: 0.6em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header {
+        background-color: orange;
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 0.5em;
+    }
+
+    h2 {
+        font-size: 0.55em;
+    }
+
+    a {
+        font-size: 0.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ROW STYLES*/
+
+
+.whitespace-row {
+    height: 18em;
+}
+
+.row {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.row-cont-interior-x {
+    height: 100%;
+    width: 100%;
+}
+    
+
+.row-cont-interior {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1400px) {
+    .row {
+        height: 500px;
+    }
+
+    .whitespace-row {
+        height: 16em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        height: 380px;
+
+    }
+
+    .whitespace-row {
+        height: 13em;
+    } 
+}
+
+@media screen and (max-width: 700px) {
+
+    .row {
+        height: 250px;
+
+    }
+
+    .whitespace-row {
+        height: 8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .row {
+        height: 170px;
+    }
+
+    .whitespace-row {
+        height: 7em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .whitespace-row {
+        height: 5em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .whitespace-row {
+        height: 3em;
+    }
+}
+
+
+
+
+/*FOOTER STYLES*/
+
+footer {
+    height: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-cont-interior {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo-icon {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width: 1400px) {
+    footer {
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    footer {
+        height: 12em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer {
+        height: 7.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        height: 6.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        height: 4em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    footer {
+        height: 2.5em;
+    }
+}
+
+
+
+
+/*LOGOS Khazimula*/
+
+.mlb {
+    background-image: url("../assets/logos/MLBLogoBlanco.svg");
+    color: #fff;
+    height: 8em;
+    width: 8em;
+}
+
+.khazimula {
+    background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+    color: #fff;
+    height: 14em;
+    width: 14em;
+}
+
+.bbs {
+    background-image: url("../assets/logos/BBSLogoBlanco.svg");
+    color: #fff;
+    height: 8em;
+    width: 8em;
+}
+
+@media screen and (max-width: 1400px) {
+    .mlb {
+        background-image: url("../assets/logos/MLBLogoBlanco.svg");
+        color: #fff;
+        height: 6em;
+        width: 6em;
+    }
+    
+    .khazimula {
+        background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+        color: #fff;
+        height: 11em;
+        width: 11em;
+    }
+    
+    .bbs {
+        background-image: url("../assets/logos/BBSLogoBlanco.svg");
+        color: #fff;
+        height: 6em;
+        width: 6em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mlb {
+        background-image: url("../assets/logos/MLBLogoBlanco.svg");
+        color: #fff;
+        height: 4.5em;
+        width: 4.5em;
+    }
+    
+    .khazimula {
+        background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+        color: #fff;
+        height: 9em;
+        width: 9em;
+    }
+    
+    .bbs {
+        background-image: url("../assets/logos/BBSLogoBlanco.svg");
+        color: #fff;
+        height: 4.5em;
+        width: 4.5em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mlb {
+        background-image: url("../assets/logos/MLBLogoBlanco.svg");
+        color: #fff;
+        height: 3.5em;
+        width: 3.5em;
+    }
+    
+    .khazimula {
+        background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+        color: #fff;
+        height: 7em;
+        width: 7em;
+    }
+    
+    .bbs {
+        background-image: url("../assets/logos/BBSLogoBlanco.svg");
+        color: #fff;
+        height: 3.5em;
+        width: 3.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mlb {
+        background-image: url("../assets/logos/MLBLogoBlanco.svg");
+        color: #fff;
+        height:2.75em;
+        width: 2.75em;
+    }
+    
+    .khazimula {
+        background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+        color: #fff;
+        height: 5.5em;
+        width: 5.5em;
+    }
+    
+    .bbs {
+        background-image: url("../assets/logos/BBSLogoBlanco.svg");
+        color: #fff;
+        height: 2.75em;
+        width: 2.75em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mlb {
+        background-image: url("../assets/logos/MLBLogoBlanco.svg");
+        color: #fff;
+        height:2em;
+        width: 2em;
+    }
+    
+    .khazimula {
+        background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+        color: #fff;
+        height: 3em;
+        width: 3em;
+    }
+    
+    .bbs {
+        background-image: url("../assets/logos/BBSLogoBlanco.svg");
+        color: #fff;
+        height: 2em;
+        width: 2em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .mlb {
+        background-image: url("../assets/logos/MLBLogoBlanco.svg");
+        color: #fff;
+        height:1.8em;
+        width: 1.8em;
+    }
+    
+    .khazimula {
+        background-image: url("../assets/logos/KhazimulaLogoBlanco.svg");
+        color: #fff;
+        height: 2em;
+        width: 2em;
+    }
+    
+    .bbs {
+        background-image: url("../assets/logos/BBSLogoBlanco.svg");
+        color: #fff;
+        height: 1.8em;
+        width: 1.8em;
+    }
+}
+
+
+
+/*CARD STYLES*/
+
+
+
+
+.base-card-article-preview {
+    height: 90%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*.base-card-article-preview:hover {
+    height: 92%;
+    width: 110%;
+    transition-duration: 1s;
+    transform-style: preserve-3d;
+}*/
+
+.base-card-cont-interior-x {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.base-card-cont-interior {
+    width: 85%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.base-card-item-display {
+    background-color: #fff;
+    height: 65%;
+}
+
+.base-card-desc {
+    margin-top: 10%;
+    background-color: #c4a445;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.base-card-desc-item {
+    padding: 2%;
+    margin: 0%;
+}
+
+.base-card-h6 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.base-card-h5 {
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .base-card-article-preview {
+        height: 90%;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .base-card-h6 {
+        font-size: 10px;
+    }
+    
+    .base-card-h5 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .base-card-article-preview {
+        height: 90%;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .base-card-h6 {
+        font-size: 8px;
+    }
+    
+    .base-card-h5 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .base-card-article-preview {
+        height: 90%;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .base-card-h6 {
+        font-size: 7px;
+    }
+    
+    .base-card-h5 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .base-card-article-preview {
+        height: 90%;
+        width: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .base-card-h6 {
+        font-size: 5px;
+    }
+    
+    .base-card-h5 {
+        font-size: 6px;
+    }
+}
+
+
+
+
+
+
+/*IMAGE STYLES*/
+
+
+.card-bg-image {
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../assets/displays/santoccilimoncello.jpg"); 
+}
+
+.card-bg-image:hover {
+    background-size: 110%;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+}
+
+
+
+/*BASE-CAROUSEL STYLES*/
+
+
+.base-carousel {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+    
+.base-carousel-cont-interior-x {
+    /*position: relative;
+    display: block;
+    width: 3500px;*/
+    overflow-x: scroll;
+    height: 500px;
+    justify-content: center;
+}
+
+.base-carousel-cont-interior {
+    height: 100%;
+    width: 3500px;
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+@media screen and (max-width: 1400px) {
+    .base-carousel {
+        height: 500px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+    .base-carousel {
+        height: 380px;
+
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .base-carousel {
+        height: 250px;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .base-carousel {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (max-width: 300px) {
+
+}
