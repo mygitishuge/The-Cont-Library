@@ -5,6 +5,10 @@
     background-color: #00002E;
 }
 
+.bg-col-seablue {
+    background-color: #006994;
+}
+
 .bg-col-calmShade {
     background-color: #aca674;
 }
@@ -47,7 +51,7 @@
 }
 
 .base-carousel-content-cont-y {
-    margin-left: 20%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -237,6 +241,7 @@ header {
     justify-content: center;
 }
 
+
 .navbar-cont {
     display: flex;
     justify-content: space-around;
@@ -244,15 +249,22 @@ header {
 
 .header-bottom-box {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     width: 100%;
     height: 30%;
 }
 
 .center-content-x {
+    width: 70vw;
     display: flex;
     justify-content: center;
+}
+
+.slogan {
+    word-wrap: break-word;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 
@@ -720,14 +732,27 @@ footer {
     justify-content: center;
 }
 
-/*.base-card-article-preview:hover {
-    height: 92%;
-    width: 110%;
-    transition-duration: 1s;
-    transform-style: preserve-3d;
-}*/
+.base-card-article-preview-car {
+    position: relative;
+    height: 90%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-car-item {
+    margin-left: 0;
+}
 
 .base-card-cont-interior-x {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.base-card-cont-interior-x-car {
     height: 90%;
     width: 100%;
     display: flex;
@@ -872,24 +897,23 @@ footer {
 
 
 .base-carousel {
-    height: 500px;
+    height: 30vh;
     width: 100%;
     display: flex;
     overflow: hidden;
 }
     
 .base-carousel-cont-interior-x {
-    /*position: relative;
-    display: block;
-    width: 3500px;*/
+    /* position: absolute; */
     overflow-x: scroll;
-    height: 500px;
+    height: 100%;
     justify-content: center;
 }
 
 .base-carousel-cont-interior {
     height: 100%;
-    width: 3500px;
+    /* width: 250vh; */
+    min-width: fit-content;
     display: flex;
     /*justify-content: space-around;*/
 }
@@ -933,3 +957,26 @@ footer {
 @media screen and (max-width: 300px) {
 
 }
+
+/*SCROLL-BAR STYLES*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #959a9e;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00002E;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #006994;
+  }
