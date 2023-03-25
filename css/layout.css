@@ -29,14 +29,6 @@
     background-color: #000;
 }
 
-.col-black {
-    color: #000;
-}
-
-.bg-col-white {
-    background-color: #fff;
-}
-
 .col-white {
     color: #fff;
 }
@@ -874,6 +866,41 @@ footer {
 
 /*IMAGE STYLES*/
 
+.santocci {
+    background-image: url("../assets/displays/santoccilimoncello.jpg"); 
+}
+
+.samalens {
+    background-image: url("../assets/displays/samalens-vs-new.png"); 
+}
+
+.lagavulin {
+    background-image: url("../assets/displays/lagavulin.png");
+}
+
+.coal-ila {
+    background-image: url("../assets/displays/coal-ila.png");
+}
+
+.hennessy {
+    background-image: url("../assets/displays/hennessy.jpg");
+}
+
+.oban {
+    background-image: url("../assets/displays/oban-14.jpg");
+}
+
+.laphroaig {
+    background-image: url("../assets/displays/laphroaig-10.jpg");
+}
+
+.diplomatico {
+    background-image: url("../assets/displays/diplomatico-reserva-exclusiva.jpg");
+}
+
+.beluga {
+    background-image: url("../assets/displays/beluga.jpg");
+}
 
 .card-bg-image {
     height: 100%;
@@ -882,8 +909,9 @@ footer {
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../assets/displays/santoccilimoncello.jpg"); 
 }
+
+
 
 .card-bg-image:hover {
     background-size: 110%;
